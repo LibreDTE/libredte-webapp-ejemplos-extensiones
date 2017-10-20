@@ -32,9 +32,7 @@ son sólo ejemplos.
 2. Edita **website/webroot/index.php** para especificar las extensiones que
    deseas usar. Debe quedar así (el orden es importante):
 
-        ```php
         $_EXTENSIONS = ['vendor/libredte', 'website', 'sowerphp/app', 'sowerphp/general'];
-        ```
 
     Recuerda colocar **website** o tu aplicación dejará de funcionar.
 
