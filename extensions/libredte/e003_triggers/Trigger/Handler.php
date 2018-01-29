@@ -90,7 +90,7 @@ class Trigger_Handler {
     private static function procesarDteDteTmpEmails(\website\Dte\Model_DteTmp $DteTmp, $emails)
     {
         // TODO: completar trigger
-        return [];
+        return $emails;
     }
 
     /**
@@ -122,7 +122,7 @@ class Trigger_Handler {
     private static function procesarDteDteEmitidoEmails(\website\Dte\Model_DteEmitido $DteEmitido, $emails)
     {
         // TODO: completar trigger
-        return [];
+        return $emails;
     }
 
     /**
